@@ -11,7 +11,7 @@ const Autoque = () => {
     const [scrollInterval, setScrollInterval] = useState<NodeJS.Timeout | null>(null);
     const [fontSize, setFontSize] = useState<number>(18);
     const [scrollSpeed, setScrollSpeed] = useState<number>(40);
-    const [cols, setCols] = useState<number>(30);
+    const [cols, setCols] = useState<number>(20);
     useEffect(() => {
         // Function to handle screen size change
         const handleResize = () => {
